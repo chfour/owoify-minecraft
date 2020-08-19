@@ -1,6 +1,6 @@
 // only the hackiest code
 
-const IFILE = "en_us.json", OFILE = "out.json";
+const IFILE = "en_us.json", OFILE = "uwu/assets/minecraft/lang/en_us.json";
 
 const fs = require('fs'), owoify = require("./owoify.js");
 
