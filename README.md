@@ -25,7 +25,7 @@ The program requires:
 
 After navigating to this directory, run `node .`. This shouldn't take too long.
 
-The program should produce `en_us.json` in the `uwu/assets/minecraft/lang/` directory. (can be changed by setting `OFILE` in `index.js`)
+The program should produce `en_us.json` in the `uwu/assets/minecraft/lang/` directory. (can be changed by setting `OFILE` & `ODIR` in `index.js`)
 
 The directory `uwu/` is the output resource pack - it should be moved your resource pack directory. You can compress this directory into a `.zip` archive, but this is not necessary.
 

@@ -1,6 +1,6 @@
 // only the hackiest code
 
-const IFILE = "en_us.json", OFILE = "uwu/assets/minecraft/lang/en_us.json";
+const IFILE = "en_us.json", ODIR = "uwu/assets/minecraft/lang/", OFILE = "en_us.json";
 
 const fs = require('fs'), owoify = require("./owoify.js");
 
@@ -19,5 +19,6 @@ for(entry in langfile){
 console.log("stringifying...");
 let data = JSON.stringify(langfile, null, 2);
 console.log(`writing ${OFILE}`);
-fs.writeFileSync(OFILE, data);
+fs.mkdirSync(ODIR, {recursive: true});
+fs.writeFileSync(ODIR + OFILE, data);
 console.log("done");
