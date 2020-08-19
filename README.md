@@ -4,6 +4,10 @@ What.
 
 OWOifier code adapted from <https://owoifier--black-is-back.repl.co/>
 
+## Premade resource pack
+
+If for some reason you can't run this / you're too lazy to, go [here](https://github.com/m1ch4ll064/owoify-minecraft/releases) to download a premade `.zip`. Drop this into your resource packs directory.
+
 ## Requirements
 
 The program requires:
